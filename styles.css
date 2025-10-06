@@ -1,0 +1,123 @@
+:root {
+    --yellow-xxx: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --box-content-width: 21rem;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    background-color: var(--yellow-xxx);
+    font-family: "Figtree",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 0rem;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.centered-box {
+    width: 24rem;
+    height: 32.625rem;
+    background-color: white;
+    border-radius: 5%;
+
+}
+
+.blog-post-image {
+    margin: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.blog-post-teaser {
+    background-color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: left;
+}
+
+.tag {
+    padding: 0rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--gray-950);
+    line-height: 150%;
+    letter-spacing: 0rem;
+}
+.mark {
+    background-color: var(--yellow-xxx);
+    padding: 0.25rem;
+    border-radius: 5%;
+}
+
+.published {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--gray-950);
+    line-height: 150%;
+    letter-spacing: 0rem;
+    padding: 0rem;
+}
+.title {
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--gray-950);
+    line-height: 150%;
+    letter-spacing: 0rem;
+}
+.teaser {
+    padding: 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0rem;
+    color: var(--gray-500);
+
+
+}
+
+.author-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    width: 22rem;
+   
+}
+.author-photo {
+    text-align: left;
+    background-color: white;
+    border-radius: 50%;
+    width: 2rem;
+}
+
+.author-name {
+    background-color: white;
+    margin-left: 1rem;
+    padding: 0rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--gray-950);
+    line-height: 150%;
+    letter-spacing: 0rem;
+
+}
+.attribution {
+        font-size: 0.75rem;
+        text-align: center;
+      }
+
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
