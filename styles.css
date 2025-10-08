@@ -2,12 +2,13 @@
     --yellow-xxx: #F4D04E;
     --gray-950: #111111;
     --gray-500: #6B6B6B;
+    --attribution-color: hsl(228, 45%, 44%); 
     --box-content-width: 21rem;
 }
 
 * {
     margin: 0rem;
-    padding: 0rem;
+    padding-inline: 0rem;
     background-color: var(--yellow-xxx);
     font-family: "Figtree",Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -47,13 +48,13 @@ a {
 
 .blog-post-teaser {
     background-color: white;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
     text-align: left;
 }
 
 .tag {
-    padding: 0rem;
+    padding-inline: 0rem;
     font-size: 0.875rem;
     font-weight: 700;
     color: var(--gray-950);
@@ -62,10 +63,10 @@ a {
 }
 .mark {
     background-color: var(--yellow-xxx);
-    padding-left: 0.75rem;
-    padding-right:0.75rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding-inline-start: 0.75rem;
+    padding-inline-end:0.75rem;
+    padding-block-start: 0.25rem;
+    padding-block-end: 0.25rem;
     border-radius: 5%;
     gap: 0.75rem;
 }
@@ -80,7 +81,7 @@ a {
     margin-top: 0.75rem;
 }
 .title {
-    padding: 0rem;
+    padding-inline: 0rem;
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--gray-950);
@@ -92,7 +93,7 @@ a {
     color: var(--yellow-xxx);
 }
 .teaser {
-    padding: 0rem;
+    padding-inline: 0rem;
     font-size: 1rem;
     font-weight: 500;
     line-height: 150%;
@@ -108,7 +109,7 @@ a {
     justify-content:flex-start;
     align-items: center;
     background-color: white;
-    padding-left: 1rem;
+    padding-inline-start: 1rem;
     width: 22rem;
     margin-top: 1rem;
    
@@ -123,7 +124,7 @@ a {
 .author-name {
     background-color: white;
     margin-left: 1rem;
-    padding: 0rem;
+    padding-inline: 0rem;
     font-size: 0.875rem;
     font-weight: 700;
     color: var(--gray-950);
@@ -137,13 +138,13 @@ a {
       }
 
 .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: var(--attribution-color);
       }
 
 
 
 /* For devices with a maximum width of 400px (Medium) */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25rem) {
 
     .centered-box {
         transform: scale(0.85)

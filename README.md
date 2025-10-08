@@ -60,7 +60,7 @@ https://stackoverflow.com/questions/982054/how-to-center-an-element-in-the-middl
 
 ## Author
 
-- Website - [Dieter H. Hoogestraat](https://www.hoogestraat.com)
+- Website - [Dieter H. Hoogestraat (Dee)](https://www.hoogestraat.com)
 - Frontend Mentor - [@vanhog](https://www.frontendmentor.io/profile/vanhog)
 
 ## Acknowledgments
